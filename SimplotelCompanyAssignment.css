@@ -413,6 +413,8 @@ body {
         letter-spacing: 0.5px;
         margin-top: 20px;
         margin-bottom: 20px;
+        overflow: hidden; /* Hide overflow */
+        text-overflow: ellipsis; /* Display ellipsis for overflowed text */
     }
 
     .page2 {
